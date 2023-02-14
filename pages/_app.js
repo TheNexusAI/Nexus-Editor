@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/globals.css';
+import "../styles/globals.css";
 import Layout from "../components/layout/Layout";
 
 export default function App({ Component, pageProps }) {
@@ -7,5 +7,5 @@ export default function App({ Component, pageProps }) {
     <Layout>
       <Component {...pageProps} />
     </Layout>
-  )
+  );
 }

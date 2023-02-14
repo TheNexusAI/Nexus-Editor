@@ -40,3 +40,7 @@ button {
   padding: 0.5rem 1rem;
   font-weight: bold;
 }
+
+.custom-shadow {
+  box-shadow: #33333333 0px 0px 3px 1px;
+}
