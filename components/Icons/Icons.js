@@ -17,72 +17,74 @@ import { BsImageAlt } from "react-icons/bs";
 import { AiFillEye } from "react-icons/ai";
 import { MdFormatLineSpacing } from "react-icons/md";
 import { FaRegDotCircle } from "react-icons/fa";
-import {RiReplyAllFill} from "react-icons/ri";
+import { RiReplyAllFill } from "react-icons/ri";
 import Icon from "./Icon";
 
 const Icons = () => {
   return (
-    <div className="flex flex-wrap justify-center p-5 my-8 custom-shadow rounded-2xl gap-x-7 gap-y-5">
-      <Icon>
-        <BsImage />
-      </Icon>
-      <Icon>
-        <ImMagicWand />
-      </Icon>
-      <Icon>
-        <IoIosColorFilter />
-      </Icon>
-      <Icon>
-        <FaSlidersH />
-      </Icon>
-      <Icon>
-        <BsCrop />
-      </Icon>
-      <Icon>
-        <AiOutlineLineChart />
-      </Icon>
-      <Icon>
-        <IoIosImages />
-      </Icon>
-      <Icon>
-        <RxText />
-      </Icon>
-      <Icon>
-        <MdOutlineBrush />
-      </Icon>
-      <Icon>
-        <BiBrightnessHalf />
-      </Icon>
-      <Icon>
-        <BsImageAlt />
-      </Icon>
-      <Icon>
-        <AiFillEye />
-      </Icon>
-      <Icon>
-        <MdFormatLineSpacing />
-      </Icon>
-      <Icon>
-        <FaRegDotCircle />
-      </Icon>
-      <Icon>
-        <MdRefresh />
-      </Icon>
-      <Icon>
-        <BsEyedropper />
-      </Icon>
-      <Icon>
-        <BsImages />
-      </Icon>
-      <Icon>
-        <RiReplyAllFill />
-      </Icon>
-      <Icon>
-        <BiSave />
-      </Icon>
-      <Icon>
-        <RiDeleteBin5Fill />
-      </Icon>
+    <div className="flex justify-center px-3 py-5 my-8 custom-shadow rounded-2xl">
+      <div className=" w-full grid grid-cols-4 gap-5 place-items-center">
+        <Icon>
+          <BsImage />
+        </Icon>
+        <Icon>
+          <ImMagicWand />
+        </Icon>
+        <Icon>
+          <IoIosColorFilter />
+        </Icon>
+        <Icon>
+          <FaSlidersH />
+        </Icon>
+        <Icon>
+          <BsCrop />
+        </Icon>
+        <Icon>
+          <AiOutlineLineChart />
+        </Icon>
+        <Icon>
+          <IoIosImages />
+        </Icon>
+        <Icon>
+          <RxText />
+        </Icon>
+        <Icon>
+          <MdOutlineBrush />
+        </Icon>
+        <Icon>
+          <BiBrightnessHalf />
+        </Icon>
+        <Icon>
+          <BsImageAlt />
+        </Icon>
+        <Icon>
+          <AiFillEye />
+        </Icon>
+        <Icon>
+          <MdFormatLineSpacing />
+        </Icon>
+        <Icon>
+          <FaRegDotCircle />
+        </Icon>
+        <Icon>
+          <MdRefresh />
+        </Icon>
+        <Icon>
+          <BsEyedropper />
+        </Icon>
+        <Icon>
+          <BsImages />
+        </Icon>
+        <Icon>
+          <RiReplyAllFill />
+        </Icon>
+        <Icon>
+          <BiSave />
+        </Icon>
+        <Icon>
+          <RiDeleteBin5Fill />
+        </Icon>
+      </div>
     </div>
   );
 };

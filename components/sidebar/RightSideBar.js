@@ -1,5 +1,5 @@
 const RightSideBar = ({ children }) => {
-  return <div className="flex-none px-5 w-72">{children}</div>;
+  return <div className="flex-none px-5 w-1/6">{children}</div>;
 };
 
 export default RightSideBar;
